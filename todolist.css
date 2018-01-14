@@ -73,20 +73,26 @@ th, td{
 }
 .start {
 	text-align: center;
-	text-decoration: none;
-	font-size: 30px;
-	color: black;
 }
 .complete{
 	text-align: center;
 	background: green;
-	text-decoration: none;
-	font-size: 30px;
-	color: white;
 }
 .delete{
 	text-align: center;
 	background: red;
+}
+.start a{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+.complete a{
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
+.delete a{
 	text-decoration: none;
 	font-size: 30px;
 	color: white;

@@ -3,7 +3,8 @@
 	class sqlCon {
 		private $host = "localhost";
 		private $user = "root";
-		private $pass = "SeniorP1";
+		// Add pass here
+		private $pass = "";
 		private $dataB = "todo";
 		var $connection;
 
