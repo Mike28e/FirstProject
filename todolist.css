@@ -11,6 +11,16 @@ body {
 	font-family: century gothic;
 	min-width: 1000px;
 }
+th {
+	color: #000000;
+	font-size: 22px;
+}
+th, td{
+	border: 1px solid #000000;
+    height: 25px;
+    padding: 10px;
+	white-space: nowrap;
+}
 .userForm {
 	background: #d9d9d9;
 	border: 1px solid #000000;
@@ -58,43 +68,25 @@ body {
 	background: #FFFFFF;
 	background-color: transparent;
 }
-th {
-	color: #000000;
-	font-size: 22px;
-}
-th, td{
-	border: 1px solid #000000;
-    height: 25px;
-    padding: 10px;
-	white-space: nowrap;
-}
 .centerCol {
 	text-align: center;
 }
 .start {
 	text-align: center;
-}
-.start a{
 	text-decoration: none;
 	font-size: 30px;
 	color: black;
 }
-
 .complete{
 	text-align: center;
 	background: green;
-}
-.complete a{
 	text-decoration: none;
 	font-size: 30px;
 	color: white;
 }
-
 .delete{
 	text-align: center;
 	background: red;
-}
-.delete a{
 	text-decoration: none;
 	font-size: 30px;
 	color: white;
