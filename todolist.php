@@ -71,9 +71,7 @@
 		</h1>
 		
 		<form method="post" action="todolist.php" class="userForm">
-			<?php if (isset($fault)) { ?>
-				<p><?php echo $fault; ?></p>
-			<?php } ?>
+			<p><?php echo $fault; ?></p>
 			Task:
 			<textarea type="text" name="task" class="taskBox"></textarea>
 			Due date:
